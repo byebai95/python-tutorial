@@ -11,14 +11,18 @@ print(type(age))
 # isinstance() 判断子类是一种父类类型
 print(isinstance(type(age), int))
 
-div = 10/3
+div = 10 / 3
 print(div)
 
 # //会舍去小数部分
-divs = 10//3
+divs = 10 // 3
 print(divs)
 
 cmp = 3 + 5j
 print(type(cmp))
 
-
+# 变量的组成： 标识 、类型、值
+name = "Lucy"
+print("标识", id(name))
+print("类型", type(name))
+print("值", name)
