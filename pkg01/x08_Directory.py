@@ -9,4 +9,8 @@ print(dct)
 print(dct["name"])
 
 # key 不存在会报错
-print(dct["address"])
+# print(dct["address"])
+print(dct.get("address", "not found"))
+
+dt = {1: "apple", 2: "banana", 3: "orange"}
+print(dt)
